@@ -2,6 +2,9 @@ package com.designs.solid.dip.problem.code;
 
 import java.util.List;
 
+/**
+ * Violation of Dependency Inversion as there is hard coupling and direct dependency on the implementations.
+ */
 public class ProductCatalog {
 
 	public void listAllProducts() {

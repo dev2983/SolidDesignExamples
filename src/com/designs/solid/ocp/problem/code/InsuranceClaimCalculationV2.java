@@ -7,6 +7,9 @@ import com.designs.solid.ocp.code.Constants.PlanType;
 import com.designs.solid.ocp.code.Constants.PayorCodes.InsuranceType;
 import com.designs.solid.ocp.code.InsuranceClaimDto;
 
+/**
+ * Violation of OCP Principle: code is showing high Cyclomatic Complexity
+ */
 public class InsuranceClaimCalculationV2 {
 
 	public BigDecimal calculateSettlementAmount(InsuranceClaimDto claimDto) {

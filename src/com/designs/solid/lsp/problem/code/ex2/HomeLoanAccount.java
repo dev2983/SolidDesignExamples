@@ -15,7 +15,8 @@ public class HomeLoanAccount implements Account {
 	@Override
 	public double calculateInterest() {
 		
-		throw new UnsupportedOperationException();
+		//throw new UnsupportedOperationException();
+		return 0.0;
 	}
 
 }
